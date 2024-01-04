@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* Header Design */
+
+.main-header-wrap{
+    background-color: rgb(221, 218, 218);
+    height: 80px;
+    width: 100%;
+    font-family: cursive;
+}
+.logo-wrap h2{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.navber .menu, .container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.navber{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.container{
+    justify-content: space-between;
+}
+.navber .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-right: 20px;
+     
+}
+.menu li a:hover{
+    color: red;
+    background-color: rgb(199, 197, 196);
+    
+}
+.navber .menu li:last-child{
+    padding-right: 0%;
+}
+
+/* img Section */
+.photo{
+    padding-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-right: 20%; */
+  
+}
+.photo img{
+    height: 850px;
+    width: 100%;
+}
+.blog {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* margin: 20%; */
+    /* justify-content: center; */
+
+}
+.A-section {
+    border: 10px solid red;
+    height: 600px;
+    width: 700px;
+    border: none;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+.A-section span{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: ;
+    margin-top: ;
+    align-items: center;
+    margin-left: 30%;
+
+}
+.A-section p{
+    padding-top: 30px;
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+.img-logo img{
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+}
+.menu-section {
+    display: flex;
+    flex-direction: ;
+
+}
+/* fkjsf */
+#menu{
+    display: flex;
+    padding-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    gap: 30px;
+    /* padding-bottom: 30px; */
+}
+.w3-center{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+h4{
+    font-size: 20px;
+    color: red;
+}
+.w3-text{
+    color: grey;
+    font-family: sans-serif;
+}
+/* sdfhkdsf */
+.contact-section{
+    margin-top: 100px;
+    /* padding-bottom: 500px; */
+}
+.c-h1{
+    color: rgb(63, 62, 62);
+    margin-left: 50px;
+
+}
+.c-p-tag {
+    padding-top: 30px;
+    color: rgb(87, 84, 84);
+    font-size: 15px;
+    margin-left: 50px;
+
+    
+}
+.w3{
+    margin-left: 50px;
+    color: rgb(7, 83, 7);
+    font-size: 20px;
+    padding-top: 25px;
+}
+.w4{
+    margin-left: 50px;
+    color: rgb(51, 50, 50);
+    padding-top: 25px;
+    font-size: 15px;
+}
+/* footer design */
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    margin-top: 50px;
+}
+.f-design{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 15px;
+    color: black
+    margin: ;
+    /* align-items: center; */
+}
+
+.footer .f-design a{
+    font-family: cursive;
+}
+.web-form{
+    margin-left: 50px;
+    padding-top: 35px;
+}
+
+
+/* contact */
+
+
+input[class=text-1],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=number-1], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+input[type=datetime-local], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+input[class="type-2"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type="submit"] {
+    width: 30%;
+    background-color: rgb(245, 243, 243);
+    color: rgb(77, 71, 71);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: turquoise;
+    color: rgb(184, 255, 71);
+  }
+
+
+
+
